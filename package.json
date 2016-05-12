@@ -1,0 +1,16 @@
+{
+  "name": "nodeteers",
+  "version": "1.0.0",
+  "description": "Showcase App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Quinn, Chavo, Sion, Brandon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  }
+}

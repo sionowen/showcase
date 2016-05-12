@@ -1,0 +1,37 @@
+body{
+  background-color: peachpuff;
+  font-family: sans-serif;
+}
+img {
+  width: 75%;
+  margin-left: 12.5%;
+}
+button{
+  font-size: 24px;
+  border-radius: 15%;
+}
+h1{
+  font-size: 45px;
+  text-align: center;
+}
+h2{
+  font-size: 35px;
+  text-align: center;
+
+}
+.user-container{
+border: 5px solid blanchedalmond;
+margin-bottom: 5%;
+}
+.bio{
+  font-size: 22px;
+  width: 80%;
+  margin: auto;
+}
+.url-container{
+  text-align: center;
+  font-size: 22px;
+}
+.button-container{
+  text-align: center;
+}
