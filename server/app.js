@@ -36,8 +36,14 @@ res.send('' + quinnLikes);
 
 
 
+app.get('/likeArray', function(req, res){
+  var likeArray = [sionLikes, chavoLikes, brandonLikes, quinnLikes];
+  console.log('likeArray ran', likeArray);
+  res.send(likeArray);
+
+})
 app.get('/bios', function(req, res){
-  console.log('data ran', data);
+  //console.log('data ran', data);
   res.send(data);
 });
 app.get('/', function(req, res){
